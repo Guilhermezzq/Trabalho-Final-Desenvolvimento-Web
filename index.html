@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frustred Developer</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__logo"><a href="#">Frustred <span> Developer</span></a></div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Principal</a></li>
+          <li class="link"><a href="#about">Sobre</a></li>
+          <li class="link"><a href="#stats">Problemas</a></li>
+          <li class="link"><a href="#blog">Blog</a></li>
+          <li class="link"><a href="#subscribe">Click</a></li>
+        </ul>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>A Realidade da Área de Tecnologia no Início</h1>
+        <button onclick="openModal()" class="btn btn__secondary">
+          Open Modal
+          <span><i class="ri-arrow-right-double-line"></i></span>
+        </button>
+      </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__grid">
+          <div class="about__content">
+            <p class="section__subheader">Sobre</p>
+            <h2 class="section__header">Informações</h2>
+            <p class="para">
+              A frustração experimentada por desenvolvedores e programadores, decorrente da escassez de conhecimento e da dificuldade em abstrair determinados problemas, é amplificada pela sensação de escassez temporal. O comprometimento acadêmico exigido pelas disciplinas universitárias torna-se um obstáculo intransponível para a conciliação eficaz com o estudo de competências específicas essenciais para o avanço na carreira almejada. Nesse contexto, surge a indagação intrínseca sobre a verdadeira valia da educação universitária, provocando uma reflexão aprofundada sobre a sua efetiva contribuição para o desenvolvimento profissional.
+            </p>
+            <br />
+            
+          </div>
+          <div class="about__list">
+            <div class="about__item">
+              <span><i class="ri-lightbulb-line"></i></span>
+              <h4>Pensar em desistir por esta enfrentando dificuldades na Área.</h4>
+            </div>
+            <div class="about__item">
+              <span><i class="ri-barricade-line"></i></span>
+              <h4>Procrastinação nos estudos, pouco prática e consumindo muito conteúdo futil. </h4>
+            </div>
+            <div class="about__item">
+              <span><i class="ri-thumb-down-fill"></i></span>
+              <h4>Se questionar se faculdade realmente vale a pena ou e apenas uma perca de tempo e consegue se tornar um belo profissional sem a mesma ...</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" id="stats">
+      <div class="section__container stats__container">
+        <div class="stats__content">
+          <p class="section__subheader">Problemas</p>
+          <h2 class="section__header">"Incels de TI"</h2>
+          <p class="para">
+            Sempre com o mesmo discurso derrotista, estatísticas infladas e uma mistura de raiva e de tristeza por não ter o mesmo sucesso que alguns outros colegas da área por razões externas, que causa uma frustração - frustração essa por uma busca de um "min-max" sem sentido na carreira: "Ou eu entro ganhando 10k numa FAANG, ou eu desisto da área".
+
+            Só que, ironicamente, esses mesmos caras não querem fazer o mínimo: têm um inglês quebrado, compram um curso e dropam antes de 1/5 dele porque "não foi com a cara do apresentador", "não gostou da dinâmica", "achou antiquado o estilo" e etc... Não são capazes de ler um livro até o 2º capítulo, não fazem projetos que não estejam disponíveis em algum tutorial, passo a passo, mastigadinho e em português, e até mesmos os que estão, ainda assim eles dropam antes de chegar na metade. Não são capazes de ler uma documentação ou buscar uma resposta no StackOverflow, Reddit , Blind ou algum suporte utilizados por programadores tirar dúvidas ou buscar informações e quando fazem perguntas, eles querem uma resposta sem querer a explicação (?), e depois de algum tempo voltam fazendo uma pergunta que nem existiria se eles tivessem ido buscar entender a causa e efeito de uma operação (que seria justamente dada pela explicação).
+          </p>
+          
+        </div>
+        <div class="stats__image">
+          <img src="assets/Capture.PNG" alt="stats" />
+          <img src="assets/f-dev.PNG" alt="stats" />
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="section__container banner__container">
+        <div class="banner__content">
+          <p class="section__subheader">Mais Informações</p>
+          <h2 class="section__header">
+            Motivos que levam Programadores a largar a Programação.
+          </h2>
+          <p class="para">
+            Você se sente perdido com tantas tecnologias ou sente que a montanha (dominar a programação) é muito alta e mal sinalizada para ser escalada? Então esse post é para você.
+          </p>
+          <div class="banner__btns">
+            <a href="https://tipscode.com.br/pessoas-largam-a-programacao-veja-8-motivos-que-levam-a-deixar/" target="_blank">
+              <button  class="btn btn__secondary">
+                A r t i g o
+                <span><i class="ri-arrow-right-double-line"></i></span>
+              </button>
+            </a>
+            <button class="btn btn__primary">
+              Get a Quote
+              <span><i class="ri-arrow-right-double-line"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <div class="section__container blog__container">
+        <p class="section__subheader">Our Posts</p>
+        <h2 class="section__header">Blog Posts</h2>
+        <div class="blog__grid">
+          <div class="blog__card">
+            
+           
+            <h4>Foi apenas nos últimos anos ou as entrevistas estão se tornando cada vez mais difíceis e impossíveis de decifrar?</h4>
+            <p>
+              Recentemente, tive uma entrevista em uma empresa faang e as perguntas gentis que foram feitas foram estranhamente específicas e a experiência que você ganha se trabalhar em sua equipe. Após a entrevista procurei respostas online e não encontrei nada específico. As funções estão se tornando cada vez mais precisas ou simplesmente não sou um engenheiro experiente?
+            </p>
+          </div>
+          <div class="blog__card">
+            
+            <h4>Buscar entender o meta atual para ter um sucesso garantido. </h4>
+            <p>
+              Quando você estão no grupo de Whatsapp/Telegram tirando dúvidas dos outros que estão aprendendo, mostrando um projeto que vocês fizeram ou empolgadamente falando com um amigo sobre esse novo projeto que vocês estão pensando em programar para colocar em prática uma nova linguagem, lib, framework ou tecnologia que vocês estão estudando, tudo isso por puro prazer, saibam que vocês já ganharam o jogo a vitória já é iminente para vocês.
+            </p>
+          </div>
+          <div class="blog__card">
+            
+            <h4>Projetos e atividades para ganhar experiência e evoluir no Área Especifica.</h4>
+            <p>
+              Fazer projetos ambiciosos para mandar naquele server de amigos do Discord - Criar bots de Whatsapp ou Telegram por diversão - Estudar como automatizar o grind de algum jogo (ou o próprio trabalho atual para aqueles que estão prestes a migrar de área) - Criar apps e sites para ajudar algum amigo ou parentes - Estudar C, C++ ou Rust para mexer com Arduino e fazer umas bugigangas maneiras e inúteis para a casa, que estão criando a própria linguagem de programação, framework, engine de jogos ou recriar um jogo ou aplicativo clássico usando uma outra tecnologia só para entender mais a fundo como eles funcionam pelo simples prazer de estudar, se aprimorar e ajudar a sociedade aos poucos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe" id="subscribe">
+      <div class="section__container subscribe__container">
+        <p class="section__subheader">Recomendações</p>
+        <h2 class="section__header">
+          Canais para suprir algumas dúvidas sobre Área de Programação e assuntos Polémicos
+        </h2>
+        <form action="/">
+          <button class="btn btn__primary"><a href="https://www.youtube.com/@LucasMontano" style="color: white;" target="_blank">Lucas Montano</a></button>
+
+          <button class="btn btn__primary"><a href="https://www.youtube.com/@JovemTranquilao" style="color: white;" target="_blank">Jovem Tranquilão</a></button>
+
+         <button class="btn btn__primary"> <a href="https://www.youtube.com/@dev_gio" style="color: white;" target="_blank" >Dev Giovanni</a></button>
+         </form>
+      </div>
+    </section>
+
+    <section class="customer">
+      <div class="section__container customer__container">
+        <p class="section__subheader">Depoimentos</p>
+        <h2 class="section__header">Comentários e Questionamentos</h2>
+        <p class="para">
+          
+        </p>
+        <div class="customer__review">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="customer__review__card">
+                  <span><i class="ri-double-quotes-r"></i></span>
+                  <p>
+                    A gente tem maneiras de pegar quem tem interesse de verdade e quem tá só surfando a onda, mas a real é que tem muita empresa que não valoriza conhecimento técnico e quer que o desenvolvimento seja chão de fábrica. Infelizmente esses cursos e foruns superficiais tão criando matéria prima pra essas empresas.
+                  </p>
+                  <div class="customer__review__details">
+                    <img src="assets/user-line.png" alt="customer" />
+                    <div>
+                      <h4>Gabriel Gomes</h4>
+                      <h5>Software Engineering</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="customer__review__card">
+                  <span><i class="ri-double-quotes-r"></i></span>
+                  <p>
+                    A gente tem maneiras de pegar quem tem interesse de verdade e quem tá só surfando a onda, mas a real é que tem muita empresa que não valoriza conhecimento técnico e quer que o desenvolvimento seja chão de fábrica. Infelizmente esses cursos e foruns superficiais tão criando matéria prima pra essas empresas.
+                  </p>
+                  <div class="customer__review__details">
+                    <img src="assets/user-line.png" alt="customer" />
+                    <div>
+                      <h4>Daniel Nunes</h4>
+                      <h5>CEO & Founder</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="customer__review__card">
+                  <span><i class="ri-double-quotes-r"></i></span>
+                  <p>
+                    A maioria das profissões são diferentes porque vc consegue usar o trabalho como meio para curtir a vida, vc pode ser um trabalhador mediano que só bate o ponto e foca-se porque a preocupação é curtir a vida.
+                    Em TI muitas vagas não dá certo isso, vc precisa se esforçar acima do normal e ser um ótimo funcionário, e a esmagadora maioria não quer isso pra vida, só quer um trampo sossegado e ganhando o suficiente pra viver bem.
+                  </p>
+                  <div class="customer__review__details">
+                    <img src="assets/user-line.png" alt="customer" />
+                    <div>
+                      <h4>Guilherme</h4>
+                      <h5>Web Developer</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5><a href="#">Plataformas</a></h5>
+          <p>
+            Plataforma para buscas e dúvidas , Reddit, Twitter, Blind e Stack OverFlow além de troca de experiencias com outros Desenvolvedores e Programadores profissionais Junior , Seniors de empresas diversas. 
+          </p>
+          <div class="footer__socials">
+            <a href="https://www.reddit.com/" target="_blank"><i class="ri-reddit-line"></i></a>
+            <a href="https://twitter.com/home?lang=en" target="_blank"><i class="ri-twitter-x-line"></i></a>
+            <a href="https://stackoverflow.com/" target="_blank"><i class="ri-stack-overflow-line"></i></a>
+            <a href="https://www.teamblind.com/" target="_blank"><i class="ri-presentation-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Links Rápidos</h4>
+          <div class="footer__links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#blog">Blog</a>
+            
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Nossos Serviços</h4>
+          <div class="footer__links">
+            <a href="#">Web Developer</a>
+            <a href="#">Web Design 3D</a>
+            <a href="#">Software Engineering</a>
+            <a href="#">Automative & Systems</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Ajuda</h4>
+          <div class="footer__links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Support</a>
+            <a href="#">Terms & Condition</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023 Web Developer. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
